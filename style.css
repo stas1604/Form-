@@ -1,0 +1,66 @@
+body {
+	background-color: #1D1D1D;
+}
+.blok {
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+	background-color: #FAFAFA;
+	margin: 250px auto;
+	text-align: center;
+	overflow: hidden;
+}
+.tip {
+	background-color: #03A9F4;
+}
+h1 {
+	font-family: Roboto,sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;		
+}
+#text {
+	display: inline-block;
+	vertical-align: middle;
+}
+input{
+	width: 200px;
+	height: 35px;
+	font-size: 15px;
+	margin: 15px;
+	border-radius: 5px;	
+}
+input[type="email"] {
+	background: url(email-icon.png) no-repeat right top/contain;
+	padding: 0 40px 0 10px;
+	margin-top: 25px;
+}
+input[type="password"] {
+	background: url(lock-icon.png) no-repeat right top/contain;
+	padding: 0 40px 0 10px;
+}
+.dws-submit{
+	width: 255px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #F44336;
+	color: #FAFAFA;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+a {
+	color: #343434;
+}
+.a {
+	height: 30px;
+	background-color: #EEEEEE;
+	padding-bottom: 15px;
+	font-family: Roboto,sans-serif;
+	font-size: 13px;
+	border-radius: 5px;
+}
+a{
+	margin: 10px;
+	text-decoration: none;
+}
